@@ -3,6 +3,9 @@
 <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+
     <application
         android:label="map"
         android:name="${applicationName}"
@@ -10,7 +13,7 @@
 
         <meta-data
               android:name="com.google.android.geo.API_KEY"
-              android:value="AIzaSyApYAlfB8uaNI85Bi2ASuNLIIogwpWm8SM" />
+              android:value="AIzaSyDqLtNRd6OBjjYDl1nDCuaPBDP9Cy3GgAk" />
         <meta-data
               android:name="com.google.android.gms.version"
               android:value="@integer/google_play_services_version" />
